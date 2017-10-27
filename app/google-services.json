@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159587259235",
+    "project_id": "firebase-eqsos"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159587259235:android:683316f2a82cb2f8",
+        "android_client_info": {
+          "package_name": "com.example.naruto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159587259235-a88j9t9rrn7amls1dqard06ni8k9e4o4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naruto",
+            "certificate_hash": "2e67e52b98e01d54c9a56b4d244c82ec14668260"
+          }
+        },
+        {
+          "client_id": "159587259235-9if51or6dk5ispui3dm3tnsjk293ptkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1XfznbkFnhvJd7Bck8EvBavnmtmd1UU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
