@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_horizontal_margin"
-    android:background="@mipmap/eback"
-    tools:context="com.example.naruto.eqsos.MainActivity"
-    android:weightSum="1">
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    tools:context="com.example.naruto.eqsos.MainActivity">
+<ImageView
+    android:layout_gravity="center_horizontal"
+    android:layout_width="148dp"
+    android:layout_height="125dp"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/e_back"
+    android:background="@null" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Serving To Distress Calls"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"/>
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/btn_sign_in"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="300dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
 
         <LinearLayout
             android:id="@+id/llProfile"
@@ -54,4 +71,4 @@
             </LinearLayout>
 </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>
